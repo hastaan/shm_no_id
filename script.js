@@ -1,5 +1,5 @@
 // Insert your CSV URL here
-var csvUrl = 'https://raw.githubusercontent.com/hastaan/shm/main/sahmiyeh_44_47_no_ID.csv';
+var csvUrl = 'https://raw.githubusercontent.com/hastaan/shm_no_id/main/sahmiyeh_44_47_no_ID.csv';
 
 // Declare data variable at a higher scope
 var data;
