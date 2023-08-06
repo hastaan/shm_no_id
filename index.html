@@ -1,0 +1,53 @@
+<html lang="fa">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div id="content">
+        <div id="header">
+            <h2>نتایج دستیاری ۴۴-۴۷</h2>
+        </div>
+        <div id="search-container">
+            <div id="search-mode">
+                <input type="radio" id="simple-search-mode" name="search-mode" checked>
+                <label for="simple-search-mode">Smart</label>
+                <input type="radio" id="advanced-search-mode" name="search-mode">
+                <label for="advanced-search-mode">Advanced</label>
+            </div>
+            <div id="simple-search">
+                <input type="text" id="search" class="translate" data-key="search" placeholder="...جستجو">
+                <button id="simple-search-btn">Search</button>
+            </div>
+            <div id="advanced-search">
+                <!-- Advanced search fields will be generated here -->
+            </div>
+            <div id="advanced-search-controls">
+                <button id="advanced-search-btn">Search</button>
+            </div>
+        </div>
+        <div id="data-container">
+            <!-- Adding table-responsive div here -->
+            <div class="table-responsive">
+                <!-- Your table will be generated here -->
+            </div>
+        </div>
+        <div id="download-mode">
+            <input type="radio" id="download-result" name="download-mode" checked>
+            <label for="download-result">result</label>
+            <input type="radio" id="download-all" name="download-mode">
+            <label for="download-all">whole data</label>
+        </div>
+        <button id="download-btn">Download</button>
+    </div>
+    <div id="creator-info">
+        <a href="https://twitter.com/hastaans" target="_blank">@Hastaan</a>, Jul 2023
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.2/FileSaver.min.js"></script>
+</body>
+
+</html>
